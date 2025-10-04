@@ -20,11 +20,11 @@ Example:
 
 local EnemySystem = require(game.ServerScriptService.SystemScripts.EnemySystem)
 
--- Spawn a new enemy for the player
+Spawn a new enemy for the player:
 EnemySystem.spawnEnemy(player)
 
--- Player performs an attack
+Player performs an attack:
 EnemySystem.playerAttack(player)
 
--- Idle/auto-attack system triggers damage
+Idle/auto-attack system triggers damage:
 EnemySystem.GameAttack(player, upgradeData)
